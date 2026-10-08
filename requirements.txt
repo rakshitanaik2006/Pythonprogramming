@@ -1,3 +1,7 @@
 ipykernel
 chandan-aiops
 loguru
+numpy
+pandas
+matplotlib
+seaborn
