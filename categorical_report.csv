@@ -1,0 +1,78 @@
+,Feature,Unique Value,No. of Unqiue values,%  of Missing Value,Most Frequent Value,Column Information
+0,Property_ID,"<StringArray>
+['PROP_00001', 'PROP_00002', 'PROP_00003', 'PROP_00004', 'PROP_00005',
+ 'PROP_00006', 'PROP_00007', 'PROP_00008', 'PROP_00009', 'PROP_00010',
+ ...
+ 'PROP_34558', 'PROP_34559', 'PROP_34560', 'PROP_34561', 'PROP_34562',
+ 'PROP_34563', 'PROP_34564', 'PROP_34565', 'PROP_34566', 'PROP_34567']
+Length: 34567, dtype: str",34567,0.0,PROP_00001,"Property_ID
+PROP_00001    1
+PROP_00002    1
+PROP_00003    1
+PROP_00004    1
+PROP_00005    1
+             ..
+PROP_34563    1
+PROP_34564    1
+PROP_34565    1
+PROP_34566    1
+PROP_34567    1
+Name: count, Length: 34567, dtype: int64"
+1,Date_Sold,"<StringArray>
+['2024-11-12', '2025-10-11', '2024-02-20', '2025-04-29', '2024-11-16',
+ '2024-10-12', '2026-07-03', '2024-08-22', '2026-04-08', '2022-02-11',
+ ...
+ '2023-04-10', '2022-11-10', '2025-09-03', '2022-04-08', '2024-09-22',
+ '2024-09-04', '2023-04-04', '2022-06-09', '2025-06-04', '2024-10-01']
+Length: 1826, dtype: str",1826,0.0,2024-06-26,"Date_Sold
+2024-06-26    33
+2026-09-23    32
+2023-08-28    32
+2024-02-08    32
+2022-02-22    32
+              ..
+2024-01-19     8
+2026-05-24     8
+2022-01-14     6
+2024-10-04     6
+2026-04-20     6
+Name: count, Length: 1826, dtype: int64"
+2,Property_Type,"<StringArray>
+['Single Family', 'Condo', 'Multi-Family', 'Townhouse']
+Length: 4, dtype: str",4,0.0,Single Family,"Property_Type
+Single Family    18990
+Townhouse         6884
+Condo             6258
+Multi-Family      2435
+Name: count, dtype: int64"
+3,Location_Type,"<StringArray>
+['Suburban', 'Rural', 'Urban']
+Length: 3, dtype: str",3,0.0,Suburban,"Location_Type
+Suburban    17216
+Urban       12091
+Rural        5260
+Name: count, dtype: int64"
+4,Neighborhood_Quality,"<StringArray>
+['Low', 'High', 'Medium', 'Luxury']
+Length: 4, dtype: str",4,0.0,Medium,"Neighborhood_Quality
+Medium    17304
+High       8597
+Low        5199
+Luxury     3467
+Name: count, dtype: int64"
+5,Condition,"<StringArray>
+['Good', 'Excellent', 'Fair', 'Renovated']
+Length: 4, dtype: str",4,0.0,Good,"Condition
+Good         17341
+Excellent     8551
+Fair          5205
+Renovated     3470
+Name: count, dtype: int64"
+6,Heating_Type,"<StringArray>
+['Gas', 'Electric', 'Solar', 'Oil']
+Length: 4, dtype: str",4,0.0,Gas,"Heating_Type
+Gas         20596
+Electric     8754
+Oil          3519
+Solar        1698
+Name: count, dtype: int64"
